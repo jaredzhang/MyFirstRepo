@@ -1,6 +1,10 @@
 apply plugin: 'android-sdk-manager'
 apply plugin: 'com.android.application'
 
+sdkManager {
+    minSdkToolsVersion '24.3.4'
+}
+
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
